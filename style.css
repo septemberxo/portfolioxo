@@ -1,0 +1,58 @@
+.centered {
+  text-align: center;
+}
+/* thinking a dark grey background with pastel colored fonts would be a clean look */
+.dark-background {
+  background-color: slategrey;
+  color: slategrey;
+}
+p {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+ h1 {
+   color:lavender;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 32px;
+ }
+
+h2 {
+  color: cyan;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 24px;
+}
+
+h3 {
+  color: aqua;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 18px;
+}
+ul {
+  color: aqua;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 18px;
+}
+ol {
+  color: blueviolet;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 18px;
+}
+.box {
+    width: 350px;
+  background: antiquewhite;
+  padding: 20px;
+  margin-left: 32px;
+  margin-right: 25px;
+
+}
+
+a {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+a:link    { color: azure;  }
+a:visited { color: coral;   }
+a:hover   { color: cornflowerblue; }
+a:active  { color: darkmagenta;  }
