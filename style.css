@@ -1,0 +1,66 @@
+.centered {
+  text-align: center;
+}
+/* thinking a dark grey background with light colored fonts would be a clean look */
+.dark-background {
+  background-color: #4E5765;
+  color: #4E5765;
+}
+/* making the main font color azure so it looks uniform and not too messy with a bunch of random colors*/
+p {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+
+h1 {
+   color:azure;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 32px;
+}
+
+h2 {
+  color:azure;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 24px;
+}
+
+h3 {
+  color: azure;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 18px;
+}
+
+ul {
+  color:azure;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 18px;
+   height: 70px;
+}
+
+ol {
+  color: azure;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 18px;
+   height: 50px;
+}
+/* want the box to be colored something that pops out and grabs the users attention*/
+.box {
+    width: 400px;
+  background: navy;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+height: auto ;
+}
+
+a {
+  color: azure;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+/*i want the visual indicator to be clear that there are changes in color when the link is hovered and has been visited from just being azure*/
+a:link    { color: azure;  }
+a:visited { color:palegoldenrod;   }
+a:hover   { color: red; }
+a:active  { color: orange;  }
